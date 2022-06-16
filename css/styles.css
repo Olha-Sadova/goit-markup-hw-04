@@ -222,10 +222,12 @@ color: var(--text-color);
     margin-bottom: 30px;
     width: 270px;
     height: 120px;
+    display: flex;
 }
 
 .concepts-icon {
-    margin: auto;
+    justify-content: center;
+    align-items: center;
 }
 
 .concepts-icon:nth-child(1) {
