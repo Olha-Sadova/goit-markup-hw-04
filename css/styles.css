@@ -121,12 +121,17 @@ color: var(--text-color);
 }
 
 .header-contacts-icon {
-    outline: #212121 1px dashed;
     display: inline-block;
     width: 16px;
     height: 12px;
     margin-right: 10px;
+    fill: var(--text-color);
 }
+
+.header-contacts-icon:hover {
+    fill: var(--accent-color);
+}
+
 
 /* Main*/
 .main-section-container {
