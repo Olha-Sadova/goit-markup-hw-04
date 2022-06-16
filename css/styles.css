@@ -226,6 +226,7 @@ color: var(--text-color);
 }
 
 .concepts-icon {
+    display: block;
     justify-content: center;
     align-items: center;
 }
